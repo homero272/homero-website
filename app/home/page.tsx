@@ -5,7 +5,7 @@ import Particles from "@/components/Particles";
 
 export default function Home() {
   return (
-    <div className="relative overflow-hidden bg-neutral-950">
+    <div className="relative bg-neutral-950">
       <div className="fixed inset-0 z-0">
         <Particles
           particleColors={["#ffffff"]}
