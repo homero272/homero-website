@@ -31,7 +31,7 @@ export default function RootLayout({
         <div className="min-h-screen flex flex-col">
           
           <main className="flex-1">{children}</main>
-          <footer className="border-t border-white/10">
+          <footer className="border-t border-white/10 z-20">
             <div className="mx-auto flex w-full max-w-6xl flex-col gap-2 px-6 py-8 text-sm text-neutral-400 md:flex-row md:items-center md:justify-between">
               <span>© {new Date().getFullYear()} Homero</span>
               <span>Building on the web and learning in public.</span>
