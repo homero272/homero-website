@@ -16,14 +16,10 @@ export default function NavBar() {
           Homero Arellano
         </button>
         {isModalOpen ? (
-          <dialog
-            className="modal modal-bottom sm:modal-middle"
-            open
-            onClose={closeModal}
-          >
-            <div className="modal-box flex justify-center">
-              <div className="card bg-base-100 w-96 shadow-sm">
-                <figure className="px-10 pt-10">
+          <dialog className="modal modal-middle" open onClose={closeModal}>
+            <div className="modal-box w-[90vw] max-w-sm overflow-y-auto p-0 sm:max-w-md">
+              <div className="card bg-base-100 shadow-sm">
+                <figure className="px-6 pt-6 sm:px-10 sm:pt-10">
                   <img
                     src="/images/profile_headshot.jpeg"
                     alt="Profile Headshot"
