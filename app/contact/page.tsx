@@ -104,7 +104,7 @@ export default function ContactPage() {
             <div></div>
             <div></div>
             <p className="mt-4 text-sm md:text-lg">
-              Email: homeroarellano272@gmail.com
+              Email
             </p>
           </div>
         </div>
