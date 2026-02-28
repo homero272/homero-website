@@ -6,7 +6,7 @@ import Card from "@/components/Card";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen bg-neutral-950">
+    <div className="relative bg-neutral-950">
       <div className="fixed inset-0 z-0">
         <Particles
           particleColors={["#ffffff"]}
@@ -20,12 +20,12 @@ export default function Home() {
           pixelRatio={1}
         />
       </div>
-      <div className="relative z-10 flex min-h-screen flex-col">
+      <div className="relative z-10 flex flex-col">
         <NavBar />
-        <main className="mx-auto flex w-full max-w-6xl flex-1 flex-col px-4 pb-16 pt-8 md:px-6 md:pt-14">
+        <main className="mx-auto flex w-full max-w-6xl flex-1 flex-col px-4 pb-0 pt-8 md:px-6 md:pt-14">
           <section className="hero rounded-box border border-base-300 bg-base-100/80 shadow-xl backdrop-blur">
-            <div className="hero-content text-center py-10 md:py-14">
-              <div className="max-w-2xl">
+            <div className="hero-content text-center py-2 md:py-14">
+              <div className="max-w-xl">
                 <div className="badge badge-primary badge-outline mb-4">Portfolio Hub</div>
                 <h1 className="text-4xl font-bold text-base-content md:text-5xl">Build. Learn. Connect.</h1>
                 <p className="py-4 text-base-content/80">
@@ -39,7 +39,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="mt-8 rounded-box border border-base-300 bg-base-100/80 p-4 shadow-xl backdrop-blur md:p-8">
+          <section className="mt-4 mb rounded-box border border-base-300 bg-base-100/80 p-4 shadow-xl pb-1 backdrop-blur md:p-8">
             <h2 className="mb-5 text-center text-xl font-semibold text-base-content md:text-2xl">Explore Sections</h2>
 
             <div className="carousel w-full rounded-box">
